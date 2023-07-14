@@ -1,0 +1,21 @@
+.App{
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sidemenu{
+  display:block;
+}
+
+@media (max-width: 1024px){
+  .sidemenu{
+    display:none;
+  }
+
+  .App{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
